@@ -1,5 +1,4 @@
 from datetime import date
-from Tools.scripts.var_access_benchmark import read_dict
 from flask import Flask, abort, render_template, redirect, url_for, flash, request
 from flask_bootstrap import Bootstrap5
 from flask_ckeditor import CKEditor
